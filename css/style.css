@@ -52,7 +52,7 @@ a:focus{
 }
 /*-- banner --*/
 .banner_top {
-    background: url(../images/home_a1.jpg) no-repeat 0px 0px;
+    background: url(../images/home.jpg) no-repeat 0px 0px;
     min-height: 800px;
     position: relative;
     background-size: cover;
@@ -771,7 +771,8 @@ h3.wthree_head.two {
 	width:33.33%;
 }
 .box {
-    height: 240px;
+	/* ORG: height: 240px; */
+	height: 370px;
     position: relative;
     overflow: hidden;
 }

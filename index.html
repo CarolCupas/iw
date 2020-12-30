@@ -27,6 +27,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link
 		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
 		rel='stylesheet' type='text/css'>
+    <!-- //recaptcha -->
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <script>
+       function onSubmit(token) {
+         document.getElementById("contform").submit();
+       }
+     </script>
 </head>
 
 <body>
@@ -47,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="#home" class="active scroll">Inicio</a></li>
 								<li><a href="#about" class="scroll">Quién soy</a></li>
 								<li><a href="#playlists" class="scroll">Playlists</a></li>
-								<li><a href="#services" class="scroll">Servicios</a></li>
+								<!-- <li><a href="#services" class="scroll">Servicios</a></li> -->
 								<li><a href="#gallery" class="scroll">Galería</a></li>
 								<li><a href="#contact" class="scroll">Contacto</a></li>
 							</ul>
@@ -65,8 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- banner-text -->
 			<div class="agileits-banner-info">
 				<p class="w3_text"></p>
-				<h3 class="w3ls_agile">Música de ayer y hoy
-					para complacer todos los gustos.</h3>
+				<h3 class="w3ls_agile">Playlister e influencer en Spotify.</h3>
 				<div class="w3_agileits_social_media ">
 
 					<ul class="social-icons3">
@@ -137,7 +143,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //playlists -->
 
 	<!-- services -->
-	<div class="services" id="services">
+<!-- 	<div class="services" id="services">
 		<div class="container">
 			<h3 class="wthree_head">Servicios
 				<span>Para eventos privados y corporativos:</span>
@@ -182,8 +188,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div> 
 			</div>
-		</div> <!-- //Container -->
-	</div> <!-- //services -->
+		</div>  <! -- //Container -- >
+	</div>  --> <!-- //services -->
 
 	<!-- gallery -->
 	<div id="gallery" class="gallery_main">
@@ -229,15 +235,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 						</div>
 					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
+					<!--<li data-title="Ivan Vite" data-desc="Gurú de la música."
 						data-src="images/g4.jpg" data-responsive-src="images/4.jpg">
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g4.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
+								<! -- <div class="caption scale-caption">
 									<h3>Salsa</h3>
 									<p>Sounds Made By Voices</p>
-								</div> -->
+								</div> -- >
 							</a>
 						</div>
 					</li>
@@ -246,10 +252,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g5.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
+								<! -- <div class="caption scale-caption">
 									<h3>Salsa</h3>
 									<p>Sounds Made By Voices</p>
-								</div> -->
+								</div> -- >
 							</a>
 						</div>
 					</li>
@@ -258,10 +264,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g6.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
+								<! -- <div class="caption scale-caption">
 									<h3>Salsa</h3>
 									<p>Sounds Made By Voices</p>
-								</div> -->
+								</div> -- >
 							</a>
 						</div>
 					</li>
@@ -270,10 +276,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g7.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
+								<! -- <div class="caption scale-caption">
 									<h3>Salsa</h3>
 									<p>Sounds Made By Voices</p>
-								</div> -->
+								</div> -- >
 							</a>
 						</div>
 					</li>
@@ -282,25 +288,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g8.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
+								<! -- <div class="caption scale-caption">
 									<h3>Salsa</h3>
 									<p>Sounds Made By Voices</p>
-								</div> -->
+								</div> -- >
 							</a>
 						</div>
 					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
+					 <li data-title="Ivan Vite" data-desc="Gurú de la música."
 						data-src="images/g9.jpg" data-responsive-src="images/9.jpg">
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g9.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
+								<! -- <div class="caption scale-caption">
 									<h3>Salsa</h3>
 									<p>Sounds Made By Voices</p>
-								</div> -->
+								</div> -- >
 							</a>
 						</div>
-					</li>
+					</li> -->
 				</ul>
 				<div class="clearfix"> </div>
 			</div>
@@ -316,7 +322,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</h3>
 			<div class="w3layouts_mail_grids">
 				<div class="w3layouts_mail_grid_right">
-					<form action="https://formspree.io/f/xrgoylbj" method="post">
+					<form id="contform" action="https://formspree.io/f/xrgoylbj" method="post">
 						<div class="col-md-6 wthree_contact_left_grid">
 							<input type="text" name="Name" placeholder="Nombre" required="">
 							<input type="email" name="Email" placeholder="Email" required="">
@@ -327,8 +333,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="clearfix"> </div>
 						<textarea name="Message" placeholder="Mensaje..." required=""></textarea>
-						<input type="submit" value="Enviar">
+						<!-- org: <input type="submit" value="Enviar"> -->
+						<input class="g-recaptcha" data-sitekey="6LfvaxkaAAAAALpYe6K2-5OB6_8W125SHJiyGZBC" data-callback='onSubmit' type="submit" value="Enviar">
 						<input type="reset" value="Limpiar">
+						<!-- org: <button class="g-recaptcha" data-sitekey="6LfvaxkaAAAAALpYe6K2-5OB6_8W125SHJiyGZBC" data-callback='onSubmit'>Submit</button> -->
 					</form>
 				</div>
 			</div>
