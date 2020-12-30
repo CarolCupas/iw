@@ -1,9 +1,24 @@
-/**/
+/* Nueva fuente*/
 @font-face {
 	font-family: 'breamcatcher';
 	src: url('/fonts/breamcatcher.ttf') format('truetype');
   }
-  
+
+/**/
+g-reCAPTCHA{
+	-webkit-transform: scale(0.84);
+	-moz-transform:    scale(0.84);
+	-ms-transform:     scale(0.84);
+	-o-transform:      scale(0.84);
+	transform:         scale(0.84);
+
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
 body{
 	margin:0;
 	padding:0;
@@ -1219,7 +1234,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 20px;
+	/* ORG: bottom: 20px; */
+	bottom: 70px;
 	right: 2%;
 	overflow: hidden;
 	z-index: 999; 
