@@ -4,7 +4,7 @@
 	src: url('/fonts/breamcatcher.ttf') format('truetype');
   }
 
-/**/
+/* reCAPTCHA */
 g-reCAPTCHA{
 	-webkit-transform: scale(0.84);
 	-moz-transform:    scale(0.84);
@@ -73,7 +73,8 @@ a:focus{
     background-size: cover;
 }
 h3.w3ls_agile {
-    font-size: 3.3em;
+	/* font-size: 3.3em; */
+	font-size: 5.5em;
     line-height: 1.5em;
     letter-spacing: 2px;
     color:#fff;
@@ -529,7 +530,8 @@ a.play {
 }
 .banner_bottom_right_grid {
     padding-right: 0;
-    margin-bottom:1.5em;
+	margin-bottom:1.5em;
+	text-align: center; /* nuevo */
 }
 .agile_w3l_info_gds.two {
     margin-top: 4em;
@@ -1260,7 +1262,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 @media (max-width:1440px){
 	.agileits-banner-info {
 		text-align: left;
-		margin: 14em 0 0 0;
+		/* ORG: margin: 14em 0 0 0; */
+		margin: 20em 0 0 0;
 		width: 54%;
 		padding: 0 5em;
 	}
@@ -1278,12 +1281,13 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.agileits-banner-info {
 		/* ORG: margin: 14em 0 0 0; */
-		margin: 20em 0 0 0;
+		margin: 15em 0 0 0;
 		width: 61%;
 		padding: 0 5em;
 	}
 	h3.w3ls_agile{
-      font-size: 4em;
+	  /* font-size: 4em; */
+	  font-size: 5 em;
 	}
 }
 @media (max-width:1280px){
@@ -1318,6 +1322,7 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.w3_agileits_banner_bottom_right {
 		min-height: 365px;
+		text-align: center; /* nuevo */
 	}
 	.w3_agileits_banner_bottom_right_pos h4 {
 		font-size: 1.5em;
@@ -1330,7 +1335,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		left: 20%;
 	}
 	.box {
-		height: 209px;
+		/* ORG: height: 209px; */
+		height: 370px;
 	}
 	.box .caption {
 	    padding: 5em 2em;
@@ -1419,6 +1425,7 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	.w3_agileits_banner_bottom_right {
 		width: 50%;
 		margin: 0 auto;
+		text-align: center; /* nuevo */
 	}
 	.w3_agileits_banner_bottom_right_pos {
 		top:20%;
@@ -1435,7 +1442,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		margin: 4em 0 0 -1em;
 	}
 	.box {
-		height: 160px;
+		/* ORG: height: 160px; */
+		height: 360px;
 	}
 	.box .caption {
 		padding: 3em 1em;
@@ -1580,7 +1588,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		padding: 0 3em;
 	}
 	.banner_bottom_left {
-		text-align: left;
+	/* org text-align: left; */
+	    text-align: center;
 		margin-top: 0em;
 		margin-bottom: 2em;
 	}
@@ -1618,6 +1627,7 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.banner_bottom_right {
 		margin-top: 2em;
+		text-align: center; /* nuevo */
 	}
 	.agileits-banner-info p {
 		font-size: 0.8em;
@@ -1669,6 +1679,7 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.w3_agileits_banner_bottom_right {
 		min-height: 280px;
+		text-align: center; /* nuevo */
 	}
 	.w3_agileits_banner_bottom_right_pos {
 		top: 15%;
@@ -1726,6 +1737,7 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.w3_agileits_banner_bottom_right {
 		width: 65%;
+		text-align: center; /* nuevo */
 	}
 	.box, .box .caption {
 		height: 137px;
@@ -1797,7 +1809,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		width: 50%;
 	}
 	.box, .box .caption {
-		height: 198px;
+		/* height: 198px; */
+		height: 360px;
 	}
 	.box .caption {
 		padding: 5em 1em;
@@ -1843,7 +1856,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		margin: 2em 0 0;
 	}
 	.box, .box .caption {
-		height: 184px;
+		/* height: 184px; */
+		height: 355px;
 	}
 	.box .caption {
 		padding: 2.5em 1em;
@@ -1905,7 +1919,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		width: 63%;
 	}
 	.box, .box .caption {
-		height: 173px;
+		/* height: 173px; */
+		height: 325px;
 	}
 	.w3_agile_contact_left ul li {
 		width: 15.8%;
@@ -1988,7 +2003,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		width: 90%;
 	}
 	.box, .box .caption {
-		height: 144px;
+		/* height: 144px; */
+		height: 325px;
 	}
 	.box .caption {
 		padding: 1.5em 1em;
@@ -2093,7 +2109,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		height: 214px;
 	}
 	.box, .box .caption {
-		height: 250px;
+		/* height: 250px; */
+		height: 325px;
 	}
 	.box .caption {
 		padding: 5.5em 1em;
@@ -2140,6 +2157,7 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 	}
 	.w3_agileits_banner_bottom_right {
 		width: 80%;
+		text-align: center; /* nuevo */
 	}
 	.w3_agileits_banner_bottom_right_pos {
 		left: 10%;
@@ -2158,7 +2176,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
       font-size: 13px;
 	}
 	.box, .box .caption {
-		height: 244px;
+		/* height: 244px; */
+		height: 350px;
 	}
 	.box .caption {
 		padding: 5.5em 1em;
@@ -2214,7 +2233,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		font-size: 1.2em;
 	}
 	.box, .box .caption {
-		height: 223px;
+		/* height: 223px; */
+		height: 325px;
 	}
 	.box .caption {
 		padding: 5em 1em;
@@ -2304,14 +2324,16 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		font-size: 13px;
 	}
 	.box, .box .caption {
-		height: 219px;
+		/* height: 219px; */
+		height: 325px;
 	}
 	.w3_testimonials_grid_right {
 		margin: 1em auto 0;
 		width: 50%;
 	}
 	.agileits-banner-info {
-		margin: 3em auto 0;
+		/* margin: 3em auto 0; */
+		margin: 8.5em auto 0;
 		width: 100%;
 		padding-top: 0em;
 		padding-left: 1em;
@@ -2335,7 +2357,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		min-height: 343px;
 	}
 	h3.w3ls_agile {
-		font-size: 1.8em;
+		/* font-size: 1.8em; */
+		font-size: 2em;
 		letter-spacing: 1px;
 		margin: 0.5em 0;
 	}
@@ -2404,7 +2427,8 @@ ul.social-icons3.two li:nth-child(1):before, ul.social-icons3.two:last-child:aft
 		padding: 2.5em 1em;
 	}
 	.box, .box .caption {
-		height: 182px;
+		/* height: 182px; */
+		height: 325px;
 	}
 	.w3_testimonials_grids {
 		margin: 1em 0 0;
