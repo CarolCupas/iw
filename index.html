@@ -27,13 +27,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link
 		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
 		rel='stylesheet' type='text/css'>
-    <!-- //recaptcha -->
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-     <script>
-       function onSubmit(token) {
-         document.getElementById("contform").submit();
-       }
-     </script>
+	<!-- //recaptcha -->
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("contform").submit();
+		}
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '258166685867192');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=258166685867192&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -54,7 +74,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="#home" class="active scroll">Inicio</a></li>
 								<li><a href="#about" class="scroll">Quién soy</a></li>
 								<li><a href="#playlists" class="scroll">Playlists</a></li>
-								<!-- <li><a href="#services" class="scroll">Servicios</a></li> -->
 								<li><a href="#gallery" class="scroll">Galería</a></li>
 								<li><a href="#contact" class="scroll">Contacto</a></li>
 							</ul>
@@ -95,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<h3 class="wthree_head">Quién Soy <span>Ivan Vite</span></h3>
 			<!-- <div class="w3l_gallery_grids"> -->
-				<div class="col-md-2"></div>
+			<div class="col-md-2"></div>
 			<div class="col-md-6 banner_bottom_left">
 				<p>Soy un apasionado de la buena música, en especial la latina, me gusta hacer playlists para toda
 					ocasión
@@ -104,16 +123,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					es ser un día curador de canciones y eso ayude a crecer musicalmente a los artistas.</p>
 			</div>
 			<div class="col-md-4 banner_bottom_right">
-				<!-- <div class="col-md-5 agileinfo_services_grid_img"> -->
-				<!-- <div class="agile_w3l_info_gds"> -->
-				<!-- <div class="banner_bottom_right_grid"> -->
-					<!-- <div class="view view-tenth"> -->
-						<img src="images/a1.png" class="img img-responsive" alt="Ivan">
-					<!-- </div> -->
-				<!-- </div> -->
+
+				<img src="images/a1.png" class="img img-responsive" alt="Ivan">
+
 				<div class="clearfix"> </div>
-				<!-- </div> -->
-				<!-- </div> -->
+
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -144,171 +158,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //playlists -->
 
-	<!-- services -->
-<!-- 	<div class="services" id="services">
-		<div class="container">
-			<h3 class="wthree_head">Servicios
-				<span>Para eventos privados y corporativos:</span>
-			</h3>
-
-			<div class='container-fluid mx-auto mt-5 mb-5 col-12' style="text-align: center">
-				<div class="row" style="justify-content: center">
-					<div class="card col-md-4 col-12">
-						<div class="card-content">
-							<div class="card-body"> <img class="img rck" src="images/service-1.png" />
-								<div class="shadow"></div>
-								<div class="card-title"> Animación de eventos </div>
-								<div class="card-subtitle">
-									<p> <small class="text-muted">Amenizo eventos con música latina seleccionando mis
-											mejores playlists.</small> </p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card col-md-4 col-12 ml-2">
-						<div class="card-content">
-							<div class="card-body"> <img class="img rck" src="images/service-2.png" />
-								<div class="card-title"> Clases de Salsa </div>
-								<div class="card-subtitle">
-									<p> <small class="text-muted">Aprende a bailar salsa conoce sus orígenes y
-											diferentes pasos que existen (nivel
-											principiante e intermedio).</small> </p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card col-md-4 col-12 ml-2">
-						<div class="card-content">
-							<div class="card-body"> <img class="img rck" src="images/service-3.png" />
-								<div class="card-title"> Clases de Bachata </div>
-								<div class="card-subtitle">
-									<p> <small class="text-muted">Aprende a bailar bachata y pasa de ser un principiante
-											a todo un bailarin experimentado.</small> </p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> 
-			</div>
-		</div>  <! -- //Container -- >
-	</div>  --> <!-- //services -->
-
 	<!-- gallery -->
 	<div id="gallery" class="gallery_main">
 		<div class="container">
 			<h3 class="wthree_head">Galería
-				<!--<span>Mas acerca de lo que me apasiona</span>-->
 			</h3>
 			<div class="w3l_gallery_grids">
 				<ul class="w3l_gallery_grid gallery" id="lightGallery">
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g1.jpg" data-responsive-src="images/1.jpg">
+					<li data-title="Ivan Vite" data-desc="Gurú de la música." data-src="images/g1.jpg"
+						data-responsive-src="images/1.jpg">
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g1.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -->
 							</a>
 						</div>
 					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g2.jpg" data-responsive-src="images/2.jpg">
+					<li data-title="Ivan Vite" data-desc="Gurú de la música." data-src="images/g2.jpg"
+						data-responsive-src="images/2.jpg">
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g2.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -->
 							</a>
 						</div>
 					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g3.jpg" data-responsive-src="images/3.jpg">
+					<li data-title="Ivan Vite" data-desc="Gurú de la música." data-src="images/g3.jpg"
+						data-responsive-src="images/3.jpg">
 						<div class="w3_w3l_gallery_grid box">
 							<a href="#">
 								<img src="images/g3.jpg" alt=" " class="img-responsive" />
-								<!-- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-								<p>Sounds Made By Voices</p>
-								</div> -->
+
 							</a>
 						</div>
 					</li>
-					<!--<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g4.jpg" data-responsive-src="images/4.jpg">
-						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
-								<img src="images/g4.jpg" alt=" " class="img-responsive" />
-								<! -- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -- >
-							</a>
-						</div>
-					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g5.jpg" data-responsive-src="images/5.jpg">
-						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
-								<img src="images/g5.jpg" alt=" " class="img-responsive" />
-								<! -- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -- >
-							</a>
-						</div>
-					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g6.jpg" data-responsive-src="images/6.jpg">
-						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
-								<img src="images/g6.jpg" alt=" " class="img-responsive" />
-								<! -- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -- >
-							</a>
-						</div>
-					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g7.jpg" data-responsive-src="images/7.jpg">
-						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
-								<img src="images/g7.jpg" alt=" " class="img-responsive" />
-								<! -- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -- >
-							</a>
-						</div>
-					</li>
-					<li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g8.jpg" data-responsive-src="images/8.jpg">
-						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
-								<img src="images/g8.jpg" alt=" " class="img-responsive" />
-								<! -- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -- >
-							</a>
-						</div>
-					</li>
-					 <li data-title="Ivan Vite" data-desc="Gurú de la música."
-						data-src="images/g9.jpg" data-responsive-src="images/9.jpg">
-						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
-								<img src="images/g9.jpg" alt=" " class="img-responsive" />
-								<! -- <div class="caption scale-caption">
-									<h3>Salsa</h3>
-									<p>Sounds Made By Voices</p>
-								</div> -- >
-							</a>
-						</div>
-					</li> -->
+
 				</ul>
 				<div class="clearfix"> </div>
 			</div>
@@ -320,7 +202,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div id="contact" class="contact">
 		<div class="container">
 			<h3 class="wthree_head">Contáctame
-				<!--<span>Hagamos que la música no pare</span>-->
+
 			</h3>
 			<div class="w3layouts_mail_grids">
 				<div class="w3layouts_mail_grid_right">
@@ -335,10 +217,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="clearfix"> </div>
 						<textarea name="Message" placeholder="Mensaje..." required=""></textarea>
-						<!-- org: <input type="submit" value="Enviar"> -->
-						<input class="g-recaptcha" data-sitekey="6LfvaxkaAAAAALpYe6K2-5OB6_8W125SHJiyGZBC" data-callback='onSubmit' type="submit" value="Enviar">
+
+						<input class="g-recaptcha" data-sitekey="6LfvaxkaAAAAALpYe6K2-5OB6_8W125SHJiyGZBC"
+							data-callback='onSubmit' type="submit" value="Enviar">
 						<input type="reset" value="Limpiar">
-						<!-- org: <button class="g-recaptcha" data-sitekey="6LfvaxkaAAAAALpYe6K2-5OB6_8W125SHJiyGZBC" data-callback='onSubmit'>Submit</button> -->
+
 					</form>
 				</div>
 			</div>
@@ -423,35 +306,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		});
 	</script>
-	<!-- start-smoth-scrolling -->
-	<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-
-			$().UItoTop({ easingType: 'easeOutQuart' });
-
-		});
-	</script>
+	<!-- //here ends start-smoth-scrolling -->
 
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
 
 			$().UItoTop({ easingType: 'easeOutQuart' });
 
